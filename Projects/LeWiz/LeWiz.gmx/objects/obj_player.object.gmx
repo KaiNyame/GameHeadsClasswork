@@ -6,7 +6,7 @@
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
-  <maskName>&lt;undefined&gt;</maskName>
+  <maskName>sp_player_idle</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
@@ -25,7 +25,65 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0.15
+            <string>image_speed = 0.15;
+var global.hp = 100;
+var global.mp = 12;
+var global.statstat = 0
+alarm[3] = 100;
+
+
+audio_play_sound(bgmusic, 10, true);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if global.mp != 12{
+global.mp +=1
+}else{
+}
+alarm[3] = 100
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//global.statstat = 2
+//event_perform(ev_draw,1);
 </string>
           </argument>
         </arguments>
@@ -120,20 +178,86 @@ if(keyboard_check(ord("D"))){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sprite_index = sp_player_shoot
-image_speed = 0.5
+            <string>sprite_index = sp_player_shoot;
+image_speed = 0.5;
 alarm[0] = 12;
+//alarm[1] = 5
+//to work on other stuff
+//event_perform(ev_draw,1);
 
-green_atk = instance_create(x,y, obj_atk_green);
-with(green_atk){
-    phy_rotation = other.phy_rotation +90;
-    ldx = lengthdir_x(15, other.mouse_dir +90);
-    ldy = lengthdir_y(15, other.mouse_dir +90);
-//  ofc the physics_apply_impuse does not work (;﹏;)
-//    physics_apply_impulse(x,y,ldx,ldy)
-    phy_position_y-=ldy;
-    phy_position_x-=ldx;
+
+if global.mp &gt; 0{
+    global.mp -= 1;
+//  omg i totally got this next section of code off of the internet.
+//  not sure why my oroginal code did not work tho....    
+    var ldx = lengthdir_x(15, mouse_x);
+    var ldy = lengthdir_y(15, mouse_y);
+    bullet = instance_create(x+ldx, y+ldy-65, obj_atk_green);
+    audio_play_sound(explode, 10, false);
+    with(bullet){
+        phy_bullet = true;
+        physics_apply_impulse(x+ldx,y+ldy, (mouse_x - x)*200,-(y - mouse_y)*200);
+        physics_apply_impulse(x+ldx,y+ldy, (mouse_x - x)*200,-(y - mouse_y)*200);
+    }
+}else{
+    
 }
+
+
+//original broken code
+
+//green_atk = instance_create(x,y, obj_atk_green);      
+//    with(green_atk){
+//        phy_rotation = other.phy_rotation;
+//        ldx = lengthdir_x(15, other.mouse_dir +90);
+//        ldy = lengthdir_y(15, other.mouse_dir +90);
+//      ofc the physics_apply_impuse does not work (;﹏;)
+//     physics_apply_impulse(x,y,ldx,ldy);
+//     phy_bullet = true;
+     ///push it in its facing direction
+//    physics_apply_local_force(0, 0, 0, -400);  
+//      phy_position_y-=ldy;
+//      phy_position_x-=ldx;    
+//    }
+    
+    
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//if global.statstat=0{
+//create healthbar and set stat to live
+    draw_self();
+    draw_healthbar(x,y-45,x+200,y-65,global.hp,c_black,c_red,c_green,0,true,true);
+    draw_healthbar(x,y-90,x+200,y-110,global.mp*100/12,c_black,c_white,c_blue,0,true,true);
+    global.statstat =1
+//}
+
+//if global.statstat=2{
+//    HIDE healthbar cuz times up
+//}
+//else{
+//if statstat is live then dont do shit cuz it already exists
+//}
 
 </string>
           </argument>
@@ -154,6 +278,6 @@ with(green_atk){
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>304,336</point>
-    <point>192,320</point>
+    <point>224,320</point>
   </PhysicsShapePoints>
 </object>
