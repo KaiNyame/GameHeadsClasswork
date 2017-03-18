@@ -30,8 +30,6 @@ var global.hp = 100;
 var global.mp = 12;
 var global.statstat = 0
 alarm[3] = 100;
-
-
 audio_play_sound(bgmusic, 10, true);
 </string>
           </argument>
