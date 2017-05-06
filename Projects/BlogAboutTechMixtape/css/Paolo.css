@@ -1,0 +1,153 @@
+#charset "UTF-8";
+#content {
+  width:800px;
+  height: 421px;
+  z-index:1;
+  background-color: #FFFFFF;
+  padding:10px;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-bottom: 0px;
+}
+/*  Element/tag selectorts */
+ul, ol, dl { /* Due to the variations between browser, it's best practice to zero padding and margin on lists. */
+  padding: 0;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  padding-right: 15px;
+  padding-left:15px;
+}
+a img {
+  border: none;
+}
+body, td, th {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+body {
+  background-color: #000;
+  background-image: url(../images/bkgdHome.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+a:hover, a:active, a:focus {
+  text-decoration: none;
+}
+
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+.header {
+}
+
+/* These are the columns for the layout. 
+
+  1) Padding is only placed on the top and/or bottom of the divs. The elemenyd within these divs have padding on their sides. This saves you
+  
+  2) No margin has been given to the column since they are all floated. 
+
+  3)
+
+  4)
+
+*/
+.sidebar1 {
+  float: left;
+  width: 180px;
+  padding-bottom: 10px;
+}
+.content {
+  padding: 10px 0;
+  width: 620px;
+  float: left;
+  background-color: #FFF;
+}
+
+/* This grouped selector gives the lists in the .content area space */
+.content ul, .content ol {
+  padding: 0px 15px 15px 40px;
+}
+/* the navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) */
+
+ul.nav  {
+  list-style:none;
+  border-top: 1px solid #666;
+  margin-bottom: 15px;
+  height: 130px;
+}
+ul.nav li {
+  border-bottom: 1px solid #666;
+}
+ul.nav a, ul.nav, a:visited {
+  padding: 5px 5px 5px 15px;
+  display: block;
+  width: 160px;
+  text-decoration:none;
+  background-color: #000;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
+  background: #ADB96E;
+  color: #FFF;
+}
+
+/* The footer */
+.footer {
+  padding: 10px 0;
+  position: relative;
+  clear: both;
+}
+
+/* miscellaneous float/clear classes */
+.fltrt {
+  float: right;
+  margin-left:8px;
+}
+.fltlft {
+  float: left;
+  margin-right: 8px;
+}
+.clearfloat {
+  clear:both;
+  height:0;
+  font-size:1px;
+	line-height: 0px;
+}
+a:link {
+  color: #F60;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #C00; 
+}
+a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+a:active {
+  text-decoration: none;
+  color: #0C0;
+}
+h1 {
+  font-size: 18px; 
+  color: #F60;
+}
+h2 {
+  font-size: 16px; 
+  color: #F60;
+}
+h3 {
+  font-size: 14px; 
+  color: #F60;
+}
+.contentImage {
+  padding: 10px;
+}
