@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>TreasureHunt</title>
+<title>ZoramsJourney</title>
 <style title="Twine CSS">@-webkit-keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes appear{0%{opacity:0}to{opacity:1}}@-webkit-keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@-webkit-keyframes rumble{50%{-webkit-transform:translateY(-0.2em);transform:translateY(-0.2em)}}@keyframes rumble{50%{-webkit-transform:translateY(-0.2em);transform:translateY(-0.2em)}}@-webkit-keyframes shudder{50%{-webkit-transform:translateX(0.2em);transform:translateX(0.2em)}}@keyframes shudder{50%{-webkit-transform:translateX(0.2em);transform:translateX(0.2em)}}@-webkit-keyframes box-flash{0%{background-color:white;color:white}}@keyframes box-flash{0%{background-color:white;color:white}}@-webkit-keyframes pulse{0%{-webkit-transform:scale(0, 0);transform:scale(0, 0)}20%{-webkit-transform:scale(1.2, 1.2);transform:scale(1.2, 1.2)}40%{-webkit-transform:scale(0.9, 0.9);transform:scale(0.9, 0.9)}60%{-webkit-transform:scale(1.05, 1.05);transform:scale(1.05, 1.05)}80%{-webkit-transform:scale(0.925, 0.925);transform:scale(0.925, 0.925)}to{-webkit-transform:scale(1, 1);transform:scale(1, 1)}}@keyframes pulse{0%{-webkit-transform:scale(0, 0);transform:scale(0, 0)}20%{-webkit-transform:scale(1.2, 1.2);transform:scale(1.2, 1.2)}40%{-webkit-transform:scale(0.9, 0.9);transform:scale(0.9, 0.9)}60%{-webkit-transform:scale(1.05, 1.05);transform:scale(1.05, 1.05)}80%{-webkit-transform:scale(0.925, 0.925);transform:scale(0.925, 0.925)}to{-webkit-transform:scale(1, 1);transform:scale(1, 1)}}@-webkit-keyframes shudder-in{0%, to{-webkit-transform:translateX(0em);transform:translateX(0em)}5%, 25%, 45%{-webkit-transform:translateX(-1em);transform:translateX(-1em)}15%, 35%, 55%{-webkit-transform:translateX(1em);transform:translateX(1em)}65%{-webkit-transform:translateX(-0.6em);transform:translateX(-0.6em)}75%{-webkit-transform:translateX(0.6em);transform:translateX(0.6em)}85%{-webkit-transform:translateX(-0.2em);transform:translateX(-0.2em)}95%{-webkit-transform:translateX(0.2em);transform:translateX(0.2em)}}@keyframes shudder-in{0%, to{-webkit-transform:translateX(0em);transform:translateX(0em)}5%, 25%, 45%{-webkit-transform:translateX(-1em);transform:translateX(-1em)}15%, 35%, 55%{-webkit-transform:translateX(1em);transform:translateX(1em)}65%{-webkit-transform:translateX(-0.6em);transform:translateX(-0.6em)}75%{-webkit-transform:translateX(0.6em);transform:translateX(0.6em)}85%{-webkit-transform:translateX(-0.2em);transform:translateX(-0.2em)}95%{-webkit-transform:translateX(0.2em);transform:translateX(0.2em)}}.debug-mode tw-expression[type=hookref]{background-color:rgba(115,123,140,0.15)}.debug-mode tw-expression[type=hookref]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"?" attr(name)}.debug-mode tw-expression[type=variable]{background-color:rgba(140,128,115,0.15)}.debug-mode tw-expression[type=variable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"$" attr(name)}.debug-mode tw-expression[type=macro]:nth-of-type(4n+0){background-color:rgba(136,153,102,0.15)}.debug-mode tw-expression[type=macro]:nth-of-type(2n+1){background-color:rgba(102,153,102,0.15)}.debug-mode tw-expression[type=macro]:nth-of-type(4n+2){background-color:rgba(102,153,136,0.15)}.debug-mode tw-expression[type=macro][name="display"]{background-color:rgba(0,170,255,0.1) !important}.debug-mode tw-expression[type=macro][name="if"],.debug-mode tw-expression[type=macro][name="if"]+tw-hook:not([name]),.debug-mode tw-expression[type=macro][name="unless"],.debug-mode tw-expression[type=macro][name="unless"]+tw-hook:not([name]),.debug-mode tw-expression[type=macro][name="elseif"],.debug-mode tw-expression[type=macro][name="elseif"]+tw-hook:not([name]),.debug-mode tw-expression[type=macro][name="else"],.debug-mode tw-expression[type=macro][name="else"]+tw-hook:not([name]){background-color:rgba(0,255,0,0.1) !important}.debug-mode tw-expression[type=macro].false{background-color:rgba(255,0,0,0.2) !important}.debug-mode tw-expression[type=macro].false+tw-hook:not([name]){display:none}.debug-mode tw-expression[type=macro][name="a"],.debug-mode tw-expression[type=macro][name="array"],.debug-mode tw-expression[type=macro][name="datamap"],.debug-mode tw-expression[type=macro][name="dataset"],.debug-mode tw-expression[type=macro][name="colour"],.debug-mode tw-expression[type=macro][name="color"],.debug-mode tw-expression[type=macro][name="num"],.debug-mode tw-expression[type=macro][name="number"],.debug-mode tw-expression[type=macro][name="text"],.debug-mode tw-expression[type=macro][name="print"]{background-color:rgba(255,255,0,0.2) !important}.debug-mode tw-expression[type=macro][name="put"],.debug-mode tw-expression[type=macro][name="set"]{background-color:rgba(255,128,0,0.2) !important}.debug-mode tw-expression[type=macro][name="script"]{background-color:rgba(255,191,0,0.2) !important}.debug-mode tw-expression[type=macro][name="style"]{background-color:rgba(185,198,198,0.2) !important}.debug-mode tw-expression[type=macro][name^="link"],.debug-mode tw-expression[type=macro][name^="click"],.debug-mode tw-expression[type=macro][name^="mouseover"],.debug-mode tw-expression[type=macro][name^="mouseout"]{background-color:rgba(128,223,32,0.2) !important}.debug-mode tw-expression[type=macro][name^="replace"],.debug-mode tw-expression[type=macro][name^="prepend"],.debug-mode tw-expression[type=macro][name^="append"],.debug-mode tw-expression[type=macro][name^="remove"]{background-color:rgba(223,96,32,0.2) !important}.debug-mode tw-expression[type=macro][name="live"]{background-color:rgba(32,96,223,0.2) !important}.debug-mode tw-expression[type=macro]::before{content:"(" attr(name) ":)";padding:0 0.5rem;font-size:1rem;vertical-align:middle;line-height:normal;background-color:inherit;border:1px solid rgba(255,255,255,0.5)}.debug-mode tw-hook{background-color:rgba(0,85,255,0.1) !important}.debug-mode tw-hook::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"["}.debug-mode tw-hook::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]"}.debug-mode tw-hook[name]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]<" attr(name) "|"}.debug-mode tw-pseudo-hook{background-color:rgba(255,170,0,0.1) !important}.debug-mode tw-collapsed::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"{"}.debug-mode tw-collapsed::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"}"}.debug-mode tw-verbatim::before,.debug-mode tw-verbatim::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"`"}.debug-mode tw-align[style*="text-align: center"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 50%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: left"]{background:linear-gradient(to right, rgba(255,204,189,0.25) 0%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: right"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 100%)}.debug-mode p{background-color:rgba(255,213,0,0.1)}.debug-mode tw-enchantment{animation:enchantment 0.5s infinite;-webkit-animation:enchantment 0.5s infinite;border:1px solid}.debug-mode tw-link::after,.debug-mode tw-broken-link::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(passage-name)}.debug-mode tw-include{background-color:rgba(204,128,51,0.1)}.debug-mode tw-include::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(type) ' "' attr(title) '"'}@keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}@-webkit-keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}tw-debugger{position:fixed;bottom:0;right:0;z-index:999999;min-width:10em;min-height:1em;padding:1em;font-size:1.5em;border-left:solid #000 2px;border-top:solid #000 2px;border-top-left-radius:0.5em;background:#fff;transition:opacity 0.2s;-webkit-transition:opacity 0.2s;opacity:0.8}@media screen and (max-width: 1280px){tw-debugger{font-size:1.25em}}@media screen and (max-width: 960px){tw-debugger{font-size:1em}}@media screen and (max-width: 640px){tw-debugger{font-size:0.8em}}tw-debugger:hover{opacity:1}.show-invisibles{border-radius:3px;border:solid #999 1px;background-color:#fff;font-size:inherit}.debug-mode .show-invisibles{background-color:#eee;box-shadow:inset #ddd 3px 5px 0.5em}tw-link,.link,tw-icon{cursor:pointer}tw-link,.enchantment-link{color:#4169E1;font-weight:bold;text-decoration:none;transition:color 0.2s ease-in-out}tw-link:hover,.enchantment-link:hover{color:DeepSkyBlue}tw-link:active,.enchantment-link:active{color:#DD4B39}.visited{color:#6941e1}.visited:hover{color:#E3E}tw-broken-link{color:#993333;border-bottom:2px solid #993333;cursor:not-allowed}.enchantment-mouseover{border-bottom:1px dashed #666}.enchantment-mouseout{border:rgba(64,149,191,0.25) 1px solid}.enchantment-mouseout:hover{background-color:rgba(64,149,191,0.25);border:transparent 1px solid;border-radius:0.2em}html{font:100% Georgia, serif;margin:0;background-color:transparent;color:#000;height:100%;overflow-x:hidden;box-sizing:border-box}*,:before,:after{position:relative;box-sizing:inherit}body{margin:0;background-color:transparent}tw-storydata{display:none}tw-story{display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-direction:normal;-webkit-box-orient:vertical;-webkit-flex-direction:column;-moz-flex-direction:column;-ms-flex-direction:column;flex-direction:column;width:60%;font-size:1.5em;line-height:1.5em;margin:5% auto}@media screen and (max-width: 1024px){tw-story{font-size:1.2em}}@media screen and (max-width: 896px){tw-story{font-size:1.05em}}@media screen and (max-width: 768px){tw-story{font-size:.9em}}tw-passage{display:block}tw-sidebar{left:-5em;width:3em;position:absolute;text-align:center;display:block}tw-icon{display:block;margin:0.5em 0;opacity:0.1;font-size:2.75em}tw-icon:hover{opacity:0.3}tw-error{display:inline-block;border-radius:0.2em;padding:0.2em;font-size:1rem;cursor:help}tw-error.error{background-color:rgba(223,58,190,0.4);color:black}tw-error.warning{background-color:rgba(223,140,58,0.4);color:black;display:none}.debug-mode tw-error.warning{display:inline}tw-error-explanation{display:block;font-size:0.8rem;line-height:1rem}tw-error-explanation-button{cursor:pointer;line-height:0em;border-radius:1px;border:1px solid black;font-size:0.8rem;margin:0 0.4rem;opacity:0.5}tw-error-explanation-button .folddown-arrowhead{display:inline-block}tw-notifier{border-radius:0.2em;padding:0.2em;font-size:1rem;background-color:rgba(223,182,58,0.4);display:none}.debug-mode tw-notifier{display:inline}tw-notifier::before{content:attr(message)}tw-colour{border:1px solid black;display:inline-block;width:1em;height:1em}h1{font-size:3em}h2{font-size:2.25em}h3{font-size:1.75em}h1,h2,h3,h4,h5,h6{line-height:1em;margin:0.6em 0}pre{font-size:1rem}small{font-size:70%}big{font-size:120%}mark{color:rgba(0,0,0,0.6);background-color:#ff9}ins{color:rgba(0,0,0,0.6);background-color:rgba(255,242,204,0.5);border-radius:0.5em;box-shadow:0em 0em 0.2em #ffe699;text-decoration:none}del{background-color:#000;text-decoration:none}center{text-align:center;margin:0 auto;width:60%}blink{text-decoration:none;animation:fade-in-out 1s steps(1, end) infinite alternate;-webkit-animation:fade-in-out 1s steps(1, end) infinite alternate}tw-align{display:block}tw-outline{color:white;text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000}tw-shadow{text-shadow:0.08em 0.08em 0.08em #000}tw-emboss{text-shadow:0.08em 0.08em 0em #000;color:white}tw-condense{letter-spacing:-0.08em}tw-expand{letter-spacing:0.1em}tw-blur{color:transparent;text-shadow:0em 0em 0.08em #000}tw-blurrier{color:transparent;text-shadow:0em 0em 0.2em #000}tw-blurrier::selection{background-color:transparent;color:transparent}tw-blurrier::-moz-selection{background-color:transparent;color:transparent}tw-smear{color:transparent;text-shadow:0em 0em 0.02em rgba(0,0,0,0.75),-0.2em 0em 0.5em rgba(0,0,0,0.5),0.2em 0em 0.5em rgba(0,0,0,0.5)}tw-mirror{display:inline-block;transform:scaleX(-1);-webkit-transform:scaleX(-1)}tw-upside-down{display:inline-block;transform:scaleY(-1);-webkit-transform:scaleY(-1)}tw-fade-in-out{text-decoration:none;animation:fade-in-out 2s ease-in-out infinite alternate;-webkit-animation:fade-in-out 2s ease-in-out infinite alternate}tw-rumble{-webkit-animation:rumble linear 0.1s 0s infinite;animation:rumble linear 0.1s 0s infinite;display:inline-block}tw-shudder{-webkit-animation:shudder linear 0.1s 0s infinite;animation:shudder linear 0.1s 0s infinite;display:inline-block}tw-shudder-in{animation:shudder-in 1s ease-out;-webkit-animation:shudder-in 1s ease-out}.transition-in{-webkit-animation:appear 0ms step-start;animation:appear 0ms step-start}.transition-out{-webkit-animation:appear 0ms step-end;animation:appear 0ms step-end}[data-t8n^=fade-in].transition-in,.transition-in[data-t8n^=dissolve]{-webkit-animation:appear 0.8s;animation:appear 0.8s}[data-t8n^=dissolve].transition-out{-webkit-animation:appear 0.8s reverse;animation:appear 0.8s reverse}[data-t8n^=shudder-in].transition-in,.transition-in[data-t8n^=shudder]{display:inline-block;-webkit-animation:shudder-in 0.8s;animation:shudder-in 0.8s}[data-t8n^=shudder-out].transition-out,.transition-out[data-t8n^=shudder]{display:inline-block;-webkit-animation:shudder-out 0.8s;animation:shudder-out 0.8s}[data-t8n^=boxflash].transition-in{-webkit-animation:box-flash 0.8s;animation:box-flash 0.8s}[data-t8n^=pulse].transition-in{-webkit-animation:pulse 0.8s;animation:pulse 0.8s}[data-t8n^=pulse].transition-out{-webkit-animation:pulse 0.8s reverse;animation:pulse 0.8s reverse}[data-t8n$=fast]{animation-duration:0.4s;-webkit-animation-duration:0.4s}[data-t8n$=slow]{animation-duration:1.2s;-webkit-animation-duration:1.2s}
 </style>
 </head>
@@ -11,7 +11,684 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="TreasureHunt" startnode="1" creator="Twine" creator-version="2.0.11" ifid="9D6EFE76-0799-425E-A914-051E31FCFED0" format="Harlowe" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Untitled Passage" tags="" position="503.5,281.5">Double-click this passage to edit it.</tw-passagedata>
+<tw-storydata name="ZoramsJourney" startnode="7" creator="Twine" creator-version="2.0.11" ifid="5C6D6D0A-A82E-4342-8595-D16C6824881C" format="Harlowe" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+body, tw-story{
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+	color: #1b0f33;
+	margin: 0;
+	padding: 0;
+	white-space: normal;
+	width: 100%
+		
+}
+/*THIS SETS THE BACKGROUNDS FOR TAGS*/
+	html /*without_tags*/{
+	background-image: url("http://orig01.deviantart.net/ba9d/f/2010/338/8/a/conceptart___asaea_forest_by_monokin-d347o0q.png");
+	width:1200px;
+}
+	html.redforest {
+	background-image: url("http://hdqwalls.com/wallpapers/red-leaves-tree.jpg");
+	width:1200px;
+}
+
+/*this deals with the passage*/
+tw-passage{
+	width: 600;
+	padding: auto;
+	margin: auto;
+	opacity: 0.8;
+	text-align:left;
+	background-color:#fff;
+	/*this is the padding between text and textbox*/
+	padding-left: 0.8em;
+	padding-right: 0.8em;
+}
+
+
+tw-sidebar {
+    display: none;
+}
+
+tw-link{
+color: #330e18;
+}
+
+tw-link.visited{
+color: #330e18;
+}
+
+tw-link.hover{
+color: #330e18;
+}
+
+
+
+
+
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
+
+
+
+
+</script><tw-passagedata pid="1" name="NOTES" tags="" position="750,0">
+&lt;img src = &quot;http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg&quot;  height=&quot;100&quot; width=&quot;100&quot;/&gt;
+
+
+(link: &#39;&lt;img src = &quot;http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg&quot;  height=&quot;100&quot; width=&quot;100&quot;/&gt;&#39;)[(goto:&quot;meetsvet&quot;)]
+
+(set: $diceroll to (random: 1, 6))
+(if: $diceroll is 1)[
+  You found a dollar! (set: $money to $money + 1)
+]
+
+
+&lt;img src = &quot;
+http://tinyurl.com/sss-svet-01&quot;  height=&quot;200&quot; width=&quot;160&quot;/&gt;
+
+
+(set:$friendName to (prompt: &quot;Enter name of friend&quot;))
+
+
+ [[Garb of the Hawk][$hat = &quot;beak&quot;; $shoes = &quot;talons&quot;]]</tw-passagedata>
+<tw-passagedata pid="2" name="START" tags="redforest1" position="0,0">THIS IS THE MENU SCREEN
+&lt;p&gt;You notice the leaves turning red. You grab some friends to go check it out.
+You notice the leaves turning red. You grab some friends to go check it out.
+You notice the leaves turning red. You grab some friends to go check it out.
+You notice the leaves turning red. You grab some friends to go check it out.
+You notice the leaves turning red. You grab some friends to go check it out.
+You notice the leaves turning red. You grab some friends to go check it out.
+You notice the leaves turning red. You grab some friends to go check it out.&lt;/p&gt;
+==&gt;
+[[GO!|BEGINNING]]&amp;nbsp; &amp;nbsp; &amp;nbsp; 
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg&quot; height=&quot;300&quot; width=&quot;300&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="3" name="MID" tags="redforest" position="0,700">You and your friends go searching for the Forest Guardian.
+==&gt;
+[[Skip to the END|END]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg&quot; height=&quot;300&quot; width=&quot;300&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="4" name="END" tags="forest" position="0,1850">You find out that the colors are the seasons shifting, and not a thing to fear.
+==&gt;
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg&quot; height=&quot;300&quot; width=&quot;300&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="5" name="HEADER" tags="header" position="1800,0">{
+(print: &quot;&lt;script&gt;$(&#39;html&#39;).removeClass(\)&lt;/script&gt;&quot;)
+(if: (passage:)&#39;s tags&#39;s length &gt; 0)[
+(print: &quot;&lt;script&gt;$(&#39;html&#39;).addClass(&#39;&quot; + (passage:)&#39;s tags.join(&#39; &#39;) + &quot;&#39;\)&lt;/script&gt;&quot;)
+]
+}
+
+</tw-passagedata>
+<tw-passagedata pid="6" name="BEGINNING" tags="" position="0,350">You notice the leaves turning red. You grab some friends to go check it out.
+==&gt;
+[[Skip to the MID|MID]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg&quot; height=&quot;300&quot; width=&quot;300&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="7" name="start2" tags="" position="249,350">It&#39;s such a nice day today. The trees are swaying and the sky is a bright blue.
+
+&quot;H-hey, what&#39;s up,&quot; a voice asked from behind you.
+
+==&gt;
+[[&quot;Nothing much, what about you?&quot;|meetchippy]]
+[[&quot;Hey, have we met before?&quot;|meetchippy2]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;http://tinyurl.com/zoram-st&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="8" name="meetchippy" tags="" position="750,350">(set: $meetchippy += 1)
+&quot;Its such a nice day, we should do something interesting,&quot; (if: $meetchippy is 1)[the chipmunk](else:)[Chippy] says brightly.
+
+==&gt;
+(if: $meetchippy is 2)[
+[[&quot;Right...&quot;|meetyou]]
+]
+(else:)[
+[[&quot;Hey, have we met before?&quot;|meetchippy2]]
+]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="9" name="meetchippy2" tags="" position="750,500">(set: $meetchippy += 1)
+&quot;Oh, I&#39;m sorry, My name is Chippy, I am a strong warrior chipmunk!&quot;
+==&gt;
+(if: $meetchippy is 2)[
+[[wa|meetyou]]
+]
+(else:)[
+[[&quot;Yeah, I suppose...&quot;|meetchippy]]
+]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="10" name="meetyou" tags="" position="950,400">(set: $timesthrough = 0)
+Chippy seems overly excited. You think he&#39;s probably the oddest chipmunk
+you have ever met. 
+
+&quot;Sounds like a plan,&quot; you say.
+
+&quot;Oh! let&#39;s go on an adventure,&quot; Chippy exclaims, hopping up and down
+with excitement.
+==&gt;
+[[&quot;I&#39;d rather not...&quot;|chippyannoying]]
+[[&quot;Sure, okay,&quot;|planadventure]]
+
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="11" name="chippyannoying" tags="" position="1100,350">(if: $timesthrough is 3)[(set: $chippyannoy = true)](else:)[(set: $timesthrough += 1)]
+&quot;Aww! You don&#39;t really mean that.&quot; he says, pouting
+
+
+&quot;What do you say? Want to go on an adventure???&quot;
+
+(if: $chippyannoy is true)[
+
+You realize he is not going to give up
+
+==&gt;
+[[&quot;Sure, okay,&quot;|planadventure]]
+](else:)[
+==&gt;
+
+[[&quot;I&#39;d rather not...&quot;|chippyannoying]]
+[[&quot;Sure, okay,&quot;|planadventure]]
+]
+==&gt;
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="12" name="planadventure" tags="" position="1200,500">Chippy drags you along, walking quite quickly on his short legs. He turns
+sharply and shouts; &quot;Wait, I don&#39;t know your name!&quot;
+
+&quot;I keep calling you &#39;that cute turtle&#39; in my head...&quot;
+
+You wince at his loud volume.
+
+==&gt;
+[[&quot;...&quot;|demandname]]
+[[&quot;My name is Zoram.&quot;|introduceyou]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="13" name="demandname" tags="" position="1350,350">&quot;Well, what is your name??&quot; Chippy asks impatiently.
+
+
+==&gt;
+[[&quot;My name is Zoram.&quot;|introduceyou]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="14" name="introduceyou" tags="" position="1350,500">&quot;Cool,&quot; Chippy says, and turns around again.
+
+He drags you onward. 
+
+Eventually you two make it to the edge of the trees.
+
+
+==&gt;
+[[&quot;W-Wait, we&#39;re going into the Sinpo forest?!&quot;|scaredofsinpo]]
+[[&quot;Where are we going?&quot;|askdiresctions]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="15" name="scaredofsinpo" tags="" position="1600,350">&quot;Well, yeah.&quot; Chippy says dismissively. He looks at you suspiciously.
+&quot;You&#39;re not scared, are you?&quot;
+
+==&gt;
+[[&quot;N-no!&quot;|scaredofsinpo2]]
+[[&quot;Of course NOT!&quot;|askdiresctions]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="16" name="askdiresctions" tags="" position="1650,500">Chippy leans in a bit closer and smiles.
+
+&quot;I was thinking of exploring the Sinpo Forest,&quot; he says conspiritorialy
+==&gt;
+[[&quot;Why?&quot;|whysinpo]]
+[[&quot;Fine.&quot;|MOVE OUT]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="17" name="scaredofsinpo2" tags="" position="1800,400">&quot;Riiiiiigh,&quot; Chippy drawls. &quot;I don&#39;t even know why you&#39;re scared. it&#39;s not
+like it&#39;s SCARY,&quot; 
+==&gt;
+[[&quot;I don&#39;t understand you- you make no sense.&quot;|askdiresctions]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="18" name="whysinpo" tags="" position="1800,550">&quot;Well, there is supposedly a Forest God that protects Sinpo, It&#39;d be fun
+to meet him&quot; He explains, as if talking to gods was an everyday occurance
+==&gt;
+[[&quot;Right.&quot;|MOVE OUT]]
+[[&quot;You&#39;re crazy.&quot;|MOVE OUT]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="19" name="MOVE OUT" tags="" position="205,695">(set: $skiplouis = true)
+You and Chippy wander through the forest for a bit. You suppose that 
+it&#39;s not too bad walking through the forest with Chippy. Although he is
+definitely weird, you think it&#39;s kind of relaxing to be walking through the
+forest with the light filtering down through the trees ahead.
+
+
+==&gt;
+[[&quot;Hey Chippy,&quot;|takeabreak]]
+[[&quot;... ... ...&quot;|noticeredtree]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="20" name="takeabreak" tags="" position="1300,900">(set: $skiplouis = false)
+&quot;Yeah, what&#39;s up?&quot; Chippy turns his face toward you, a questioning 
+expression passing over his face.
+
+&quot;I think we should stop for a bit,&quot; you say firmly
+
+&quot;Whyyyyyyyy,&quot; Chippy whines, &quot;we haven&#39;t found the God of Sinpo forest
+yet!&quot;
+==&gt;
+[[&quot;Come on, don&#39;t pout. Plus I&#39;m hungry. We should find some food.&quot;|findsomefood]]
+[[&quot;We&#39;ve been walking for a while, I want to rest for a little.&quot;|rest]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="21" name="findsomefood" tags="" position="1500,1050">(set: $food = &quot;berries&quot; )
+&quot;I suppose we could take a quick detour,&quot; Chippy admits. &quot;Now that 
+I think about it, I AM kind of hungry as well...&quot;
+
+Chippy contemplates for a minute before stating &quot;we could search for some
+$food.&quot;
+==&gt;
+[[&quot;Okay, $food sounds good.&quot;|lookinbushes]]
+[[&quot;BLEGH! I hate $food!&quot;|noberries]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="22" name="rest" tags="" position="1150,1048">&quot;Fine.&quot; Chippy says, crossing his arms, and frowning.
+
+You sit down on the forest floor. Chippy plops down unceremoniously
+after you. At first it is just quiet, you sitting and resting, and Chippy
+tapping his foot distractedly. Slowly, you start to see Chippy start 
+relaxing a bit. You close your eyes, and breathe deeply, taking in the
+calm sounds of the forest. 
+
+
+The two of you stay like that for a while longer, then you open your eyes.
+==&gt;
+[[&quot;Okay, I think i&#39;m ready to go now.&quot;|meetlouis]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="23" name="meetlouis" tags="" position="900,1200">The trees rustle behind you and you turn to see a figure approachig.
+
+&quot;Who goes there?!!!&quot; Chippy demands, staring at the newcomer.
+
+&quot;Um, hello,&quot; the figure says. &quot;I&#39;m a bluebird messenger. I&#39;m just
+passing through,&quot; 
+==&gt;
+[[&quot;umm&quot;|meetlouis2]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/c4ClBdUOu0PMA-v0sGGLHRyTA6N9kGgBjF2vAFkgDYt2jpT4O08R83fvbdDLKNBSYbcd3fQfv28o4hIkdrbDUpqy8B4ZCgX-lwtEO8Teli-lhwPk3tMqJxcYxUvb6snAAbocmCSUROfJ3IHYTsjdMIEXZ0DdM7mYRTggjdB3b_NhVSwDf3QgMU07_1OJQEg2n3o30DLdAUCLeYHgY4THBrlBrrzxqbUconCzfSRnHr5Ls4G1Jd_iw9-VKG69kKfCKH6UQ__9XSCfKcC8tvd5wl8diZvVqwBIEE90QXrqbyyIkIQJ89VfZeMrOjPjPDWy0WacqnMEm2uvJ4QFrnvvjQwxpBvdBJeeoydcdju27evWgc15NSvC0Sc39ZEfptzEqnuGGGBbnslO7bvCSPUMmq-O9a8COFA45UYklMgtTk0WJ_-u2mquQBOA1zSpKto5hUZwbk5jBjnWg6Y0NYH3Fb7jt6NcCUDjVbckVgTm9DbToDB8qstXnont-SJrltASnYQRoVH0vFmkIrpJtldTh0ccc14uyxR110aMv4vSNYX4wlGOcXCqV2K4cTKee2R-KUQpkgzqVm8Ou08j0k4V1KsNZlKSR4DltO58ph_nvHhHM9hQZins0OYRqGjqPoXX61oRipuG2gQN0HLFonqBRrsuFt-eXmWAuso83naXng=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+</tw-passagedata>
+<tw-passagedata pid="24" name="noticeredtree" tags="redforest" position="1800,850">Eventually you come accross a huge tree. It&#39;s vast branches creating
+a maze of curling wood. Both of you sare up in awe. The leaves of the tree 
+were shades of bright orange and dark red!
+
+&quot;WOAH!&quot; Chippy exclaims loudly.
+
+&quot;Yeah, woah.&quot; You agree
+==&gt;
+[[&quot;Do you think it is supposed to be that color?&quot;|askcolor]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="25" name="lookinbushes" tags="" position="1350,1200">You and Chippy walk for a little while longer before you find some berry
+bushes. 
+
+&quot;Why don&#39;t we both collect some, and then sit down for a sec to eat
+&#39;em,&quot; Chippy suggests lightly.
+
+You agree and the two of you start picking the juicy $food. After a 
+bit, you and Chippy find a clear spot on the ground and sit down to eat 
+your $food.
+
+
+==&gt;
+[[&quot;Those $food look yummy!&quot;|eatfood]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="26" name="noberries" tags="" position="1500,1200">(set: $food = &quot;apples&quot;)
+&quot;Well what do you suggest?&quot; Chippy demands.
+
+==&gt;
+[[&quot;I like apples.&quot;|apples]]
+[[&quot;Anything! Just not berries!&quot;|strawberries]]
+[[&quot;nevermind, I don&#39;t want food.&quot;|noticeredtree]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="27" name="eatfood" tags="" position="1150,1350">You and Chippy eat your $food. You think about how yummy they are. 
+Chippy manages to talk and eat at the same time. During some moments
+you wonder how he can do it without choking.
+
+
+&quot;OoOOOH! I&#39;m all nice and full now.&quot; Chippy says contentedly.
+==&gt;
+[[&quot;Me too.&quot;|meetlouis]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="28" name="Garb of the Hawk" tags="startup" position="950,0">&lt;audio src=&quot;http://tinyurl.com/zoram-music&quot; autoplay loop&gt;</tw-passagedata>
+<tw-passagedata pid="29" name="iwantdiffood" tags="" position="1450,1550">You and Chippy walk for a little while longer before you find some (if: $food is &quot;apples&quot;)[apple trees](else:)[strawberry patches]. 
+
+&quot;Why don&#39;t we both collect some, and then sit down for a sec to eat
+&#39;em,&quot; Chippy suggests lightly.
+
+You agree and the two of you start picking the juicy $food. 
+After a bit, you and Chippy find a clear spot on the ground and sit down to eat 
+your $food.
+
+==&gt;
+[[&quot;Those $food look yummy!&quot;|eatfood]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="30" name="apples" tags="" position="1400,1350">(set: $food = &quot;apples&quot;)
+&quot;I suppose we could try to search for some $food.&quot; Chippy says.
+
+==&gt;
+[[&quot;Good.&quot;|iwantdiffood]]
+[[&quot;No, I change my mind&quot;|noberries]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="31" name="strawberries" tags="" position="1550,1350">(set: $food = &quot;strawberries&quot;)
+
+&quot;What about $food?&quot; Chippy asks. He smiles for a moment before
+continuing, &quot;Technically, they AREN&#39;T berries!&quot;
+==&gt;
+[[&quot;Sure, $food work.&quot;|iwantdiffood]]
+[[&quot;Nope! Pick something else.&quot;|noberries]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="32" name="noticeredtree2" tags="redforest" position="400,850">&quot;WRONG!&quot; Chippy says loudly. Both you and Louis wince at his sheer volume.
+You lapse into a grateful silence, walking next to louis.
+Eventually you come accross a huge tree. It&#39;s vast branches creating
+a maze of curling wood. Both of you sare up in awe. The leaves of the tree 
+were shades of bright orange and dark red!
+
+&quot;WOAH!&quot; Chippy exclaims loudly.
+
+&quot;Yeah, woah.&quot; You agree
+==&gt;
+[[&quot;Do you think it is supposed to be that color?&quot;|askcolor2]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/c4ClBdUOu0PMA-v0sGGLHRyTA6N9kGgBjF2vAFkgDYt2jpT4O08R83fvbdDLKNBSYbcd3fQfv28o4hIkdrbDUpqy8B4ZCgX-lwtEO8Teli-lhwPk3tMqJxcYxUvb6snAAbocmCSUROfJ3IHYTsjdMIEXZ0DdM7mYRTggjdB3b_NhVSwDf3QgMU07_1OJQEg2n3o30DLdAUCLeYHgY4THBrlBrrzxqbUconCzfSRnHr5Ls4G1Jd_iw9-VKG69kKfCKH6UQ__9XSCfKcC8tvd5wl8diZvVqwBIEE90QXrqbyyIkIQJ89VfZeMrOjPjPDWy0WacqnMEm2uvJ4QFrnvvjQwxpBvdBJeeoydcdju27evWgc15NSvC0Sc39ZEfptzEqnuGGGBbnslO7bvCSPUMmq-O9a8COFA45UYklMgtTk0WJ_-u2mquQBOA1zSpKto5hUZwbk5jBjnWg6Y0NYH3Fb7jt6NcCUDjVbckVgTm9DbToDB8qstXnont-SJrltASnYQRoVH0vFmkIrpJtldTh0ccc14uyxR110aMv4vSNYX4wlGOcXCqV2K4cTKee2R-KUQpkgzqVm8Ou08j0k4V1KsNZlKSR4DltO58ph_nvHhHM9hQZins0OYRqGjqPoXX61oRipuG2gQN0HLFonqBRrsuFt-eXmWAuso83naXng=w1006-h261-no&quot; height=&quot;300&quot; width=&quot;300&quot;/&gt;
+</tw-passagedata>
+<tw-passagedata pid="33" name="askcolor" tags="redforest" position="1800,1000">&quot;I dunno. I&#39;ve never seen a tree with leaves this color!&quot; Chippy says,
+alarmed. &quot;Do you think it&#39;s sick??&quot;
+==&gt;
+[[&quot;Maybe?&quot;|meetaer]]
+[[&quot;I hope not.&quot;|meetaer]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/-lfeB09iAjdnAHrf3Xs2i2xRLsbLCkDpwl_q0j5WKGWCbNLyUaCwfzB7-Hr8ujpoMvaDoiQ9put6PWDgSDaWwKF-4mEz7P5pBaq9g_PEvULdH64U12mHmcCtUGmZ5Z-CbtOS6TS1V0_GXcFeh3yU0voP0WFFQ6ygfjhzANWHSl0DMt_lX98qArFlix-etRhO6Zkka6IPVnVKLLtNPGZVTD_jzBskpKYWhO9Rq7CEByewyZ28Y1d_7xsX33VJkqrzcm2QySNK_JZTRtnLGNQotjT34XLdU5yUqri8vtTN4-14hCuuBMYRNZS-iMq--Xhbegg8VGbqrrb3B0lhxBZ_j5fo2YSmtngjRMAaZ8RBXTbNut5ShtLdImn_z-Lv6d33w1J0VICOFS8_uOmMviR5_in5dpWFF6tk8EvG5GtTsFMKVADe9Tn5S6q063nqTPt4T9x1Ozoiy_9pfUFfDs7W4x5l4VK-7Aa4dtImlXlOumpYgRJ_bg-qPqWLOJk-1_JvAdoP0aMj__qI4wU83sIrYccJlZUMflUVJY09pLgHfjwHiiLuLplAtHWPGwhCDcXLbrz3cl5yFddZOGPNpZ8ChjbY_XUYX0INJXMC9UxgjSsrhO6y8ZCvO6sP9gKS6RwRrbtK0f-HyE1HSRoaBq5yjzCyueU24IAmVNih17RYxA=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;</tw-passagedata>
+<tw-passagedata pid="34" name="meetaer" tags="redforest" position="1800,1150">As you stare at the red leaves in wonder, you notice the sound of footsteps. 
+You turn around in time to see the approaching figure. Chippy gasps,
+directly in front of you is a being you are not familar with.
+==&gt;
+[[&quot;...&quot;|helloaer]]
+[[&quot;W-what are you?&quot;|helloaer]]
+[[&quot;Are you the Guardian of Sinpo Forest?&quot;|helloaer]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/JSKbg8Hu2vCVh-oO0XAlOeF4gHGEl7p1wO-r8KbjuL_oagRjpNntXIiK0Gq9dRlxlXdeZQ7rcaHxCToy3rZeCNpkZFdYyahr0owb1kRP53F3X-PyvD8dphvboWoMGIZk1yS1nzmQk8f1zH6JJ2vceteAkwXZLlLuTBY4dgHLV5Q_kPwEcQVpQDF1jZijNmhgYUHfnw2dLSjdIImJIjkt0bBTa5x_g0wPEi17gu2mwfVouT_me6MNfge6ExjY9bpN3gwkfWz6h0Fr-j1rEzLSaYoYJ4VNPlVDi1x6s1kBhf_uEnsNuAjfHttbtfjqqaiQd9J5903RCr60pkwiPInvWajrU17-fBZ3sW9R9ebbSfhCT6v07ll4IMu8SAWm46MoyoBeEAXQm5GNTgiYYYSlPtrk2NUOsavxexxYQApTC0wwc3EiyC1eorpZ43kWz2C86K9X5P-9P6U0yYM173oB9zkC-Kh9CMjT74j6clOlXddF1qnjnRlthIOaOGuIuNIs16vR5uQUlebUa43UODo8d1MMDyj6pZL2pkatereqwWLGpMCdSxXjvBH7J-RZkF4qmbhH9s05Mbd3Bm2bjW2TCJnhoqBnbXvRyPsZf7FRWp7zbhQeI5OEra9FfmpdbBJjEW1Cl3GtyWSyGZD7uWzb0vBdSAswAhTcfB0SkNGKhQ=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="35" name="helloaer" tags="redforest" position="1800,1300">The being turns toward you.
+
+&quot;My name is Aer. I am the Guardian of the Sinpo Forest.&quot; the voice 
+is light and airy, like the sound of wind chimes. 
+
+&quot;OH WOW!&quot; Chippy gasps, the mysterious moment ruined by his brash comment.
+
+&quot;YOU&#39;RE THE GOD OF THE FOREST??&quot; He asks loudly.
+
+==&gt;
+[[&quot;That IS what he said.&quot;|askaboutred]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/JSKbg8Hu2vCVh-oO0XAlOeF4gHGEl7p1wO-r8KbjuL_oagRjpNntXIiK0Gq9dRlxlXdeZQ7rcaHxCToy3rZeCNpkZFdYyahr0owb1kRP53F3X-PyvD8dphvboWoMGIZk1yS1nzmQk8f1zH6JJ2vceteAkwXZLlLuTBY4dgHLV5Q_kPwEcQVpQDF1jZijNmhgYUHfnw2dLSjdIImJIjkt0bBTa5x_g0wPEi17gu2mwfVouT_me6MNfge6ExjY9bpN3gwkfWz6h0Fr-j1rEzLSaYoYJ4VNPlVDi1x6s1kBhf_uEnsNuAjfHttbtfjqqaiQd9J5903RCr60pkwiPInvWajrU17-fBZ3sW9R9ebbSfhCT6v07ll4IMu8SAWm46MoyoBeEAXQm5GNTgiYYYSlPtrk2NUOsavxexxYQApTC0wwc3EiyC1eorpZ43kWz2C86K9X5P-9P6U0yYM173oB9zkC-Kh9CMjT74j6clOlXddF1qnjnRlthIOaOGuIuNIs16vR5uQUlebUa43UODo8d1MMDyj6pZL2pkatereqwWLGpMCdSxXjvBH7J-RZkF4qmbhH9s05Mbd3Bm2bjW2TCJnhoqBnbXvRyPsZf7FRWp7zbhQeI5OEra9FfmpdbBJjEW1Cl3GtyWSyGZD7uWzb0vBdSAswAhTcfB0SkNGKhQ=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="36" name="askaboutred" tags="redforest" position="1800,1450">Aer smiles breifly before drifting a bit closer.
+
+&quot;Before, you were talking about the Tree of Change....&quot; Aer trails
+off into silence.
+
+==&gt;
+[[&quot;Yes, we&#39;d like to know what&#39;s wrong with it.&quot;|explainred]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/JSKbg8Hu2vCVh-oO0XAlOeF4gHGEl7p1wO-r8KbjuL_oagRjpNntXIiK0Gq9dRlxlXdeZQ7rcaHxCToy3rZeCNpkZFdYyahr0owb1kRP53F3X-PyvD8dphvboWoMGIZk1yS1nzmQk8f1zH6JJ2vceteAkwXZLlLuTBY4dgHLV5Q_kPwEcQVpQDF1jZijNmhgYUHfnw2dLSjdIImJIjkt0bBTa5x_g0wPEi17gu2mwfVouT_me6MNfge6ExjY9bpN3gwkfWz6h0Fr-j1rEzLSaYoYJ4VNPlVDi1x6s1kBhf_uEnsNuAjfHttbtfjqqaiQd9J5903RCr60pkwiPInvWajrU17-fBZ3sW9R9ebbSfhCT6v07ll4IMu8SAWm46MoyoBeEAXQm5GNTgiYYYSlPtrk2NUOsavxexxYQApTC0wwc3EiyC1eorpZ43kWz2C86K9X5P-9P6U0yYM173oB9zkC-Kh9CMjT74j6clOlXddF1qnjnRlthIOaOGuIuNIs16vR5uQUlebUa43UODo8d1MMDyj6pZL2pkatereqwWLGpMCdSxXjvBH7J-RZkF4qmbhH9s05Mbd3Bm2bjW2TCJnhoqBnbXvRyPsZf7FRWp7zbhQeI5OEra9FfmpdbBJjEW1Cl3GtyWSyGZD7uWzb0vBdSAswAhTcfB0SkNGKhQ=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="37" name="explainred" tags="redforest" position="1800,1600">&quot;There&#39;s nothing wrong with the Tree of Change.&quot; Aer explains.
+
+&quot;It&#39;s just undergoing some changes.&quot;
+
+&quot;Why?&quot; Chippy demands before turning toward you. &quot;It definitely looks
+like there&#39;s something wrong with it.&quot; he remarks.
+
+==&gt;
+[[&quot;...&quot;|explainredmore]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/JSKbg8Hu2vCVh-oO0XAlOeF4gHGEl7p1wO-r8KbjuL_oagRjpNntXIiK0Gq9dRlxlXdeZQ7rcaHxCToy3rZeCNpkZFdYyahr0owb1kRP53F3X-PyvD8dphvboWoMGIZk1yS1nzmQk8f1zH6JJ2vceteAkwXZLlLuTBY4dgHLV5Q_kPwEcQVpQDF1jZijNmhgYUHfnw2dLSjdIImJIjkt0bBTa5x_g0wPEi17gu2mwfVouT_me6MNfge6ExjY9bpN3gwkfWz6h0Fr-j1rEzLSaYoYJ4VNPlVDi1x6s1kBhf_uEnsNuAjfHttbtfjqqaiQd9J5903RCr60pkwiPInvWajrU17-fBZ3sW9R9ebbSfhCT6v07ll4IMu8SAWm46MoyoBeEAXQm5GNTgiYYYSlPtrk2NUOsavxexxYQApTC0wwc3EiyC1eorpZ43kWz2C86K9X5P-9P6U0yYM173oB9zkC-Kh9CMjT74j6clOlXddF1qnjnRlthIOaOGuIuNIs16vR5uQUlebUa43UODo8d1MMDyj6pZL2pkatereqwWLGpMCdSxXjvBH7J-RZkF4qmbhH9s05Mbd3Bm2bjW2TCJnhoqBnbXvRyPsZf7FRWp7zbhQeI5OEra9FfmpdbBJjEW1Cl3GtyWSyGZD7uWzb0vBdSAswAhTcfB0SkNGKhQ=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="38" name="explainredmore" tags="redforest" position="1208,1703">Aer turns toward the tree and plucks a vividly red leaf from one of its branches. 
+&quot;Here, look at this,&quot; he says, and passes the leaf to Chippy.
+Chippy shrinks back a bit, afraid to touch the oddly colored offering.
+&quot;No? Okay, how about you then? Will you take the leaf?&quot; Aer motions toward
+you, holding the leaf within your grasp.
+==&gt;
+[[&quot;I&#39;m not scared,&quot;|explainredmore2]]
+[[&quot;Sure, why not,&quot;|explainredmore2]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/JSKbg8Hu2vCVh-oO0XAlOeF4gHGEl7p1wO-r8KbjuL_oagRjpNntXIiK0Gq9dRlxlXdeZQ7rcaHxCToy3rZeCNpkZFdYyahr0owb1kRP53F3X-PyvD8dphvboWoMGIZk1yS1nzmQk8f1zH6JJ2vceteAkwXZLlLuTBY4dgHLV5Q_kPwEcQVpQDF1jZijNmhgYUHfnw2dLSjdIImJIjkt0bBTa5x_g0wPEi17gu2mwfVouT_me6MNfge6ExjY9bpN3gwkfWz6h0Fr-j1rEzLSaYoYJ4VNPlVDi1x6s1kBhf_uEnsNuAjfHttbtfjqqaiQd9J5903RCr60pkwiPInvWajrU17-fBZ3sW9R9ebbSfhCT6v07ll4IMu8SAWm46MoyoBeEAXQm5GNTgiYYYSlPtrk2NUOsavxexxYQApTC0wwc3EiyC1eorpZ43kWz2C86K9X5P-9P6U0yYM173oB9zkC-Kh9CMjT74j6clOlXddF1qnjnRlthIOaOGuIuNIs16vR5uQUlebUa43UODo8d1MMDyj6pZL2pkatereqwWLGpMCdSxXjvBH7J-RZkF4qmbhH9s05Mbd3Bm2bjW2TCJnhoqBnbXvRyPsZf7FRWp7zbhQeI5OEra9FfmpdbBJjEW1Cl3GtyWSyGZD7uWzb0vBdSAswAhTcfB0SkNGKhQ=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="39" name="askcolor2" tags="redforest" position="400,995">&quot;I dunno. I&#39;ve never seen a tree with leaves this color!&quot; Chippy says,
+alarmed. 
+&quot;Do you think it&#39;s sick??&quot; Louis asks.
+==&gt;
+[[&quot;Maybe?&quot;|meetaer2]]
+[[&quot;I hope not.&quot;|meetaer2]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/c4ClBdUOu0PMA-v0sGGLHRyTA6N9kGgBjF2vAFkgDYt2jpT4O08R83fvbdDLKNBSYbcd3fQfv28o4hIkdrbDUpqy8B4ZCgX-lwtEO8Teli-lhwPk3tMqJxcYxUvb6snAAbocmCSUROfJ3IHYTsjdMIEXZ0DdM7mYRTggjdB3b_NhVSwDf3QgMU07_1OJQEg2n3o30DLdAUCLeYHgY4THBrlBrrzxqbUconCzfSRnHr5Ls4G1Jd_iw9-VKG69kKfCKH6UQ__9XSCfKcC8tvd5wl8diZvVqwBIEE90QXrqbyyIkIQJ89VfZeMrOjPjPDWy0WacqnMEm2uvJ4QFrnvvjQwxpBvdBJeeoydcdju27evWgc15NSvC0Sc39ZEfptzEqnuGGGBbnslO7bvCSPUMmq-O9a8COFA45UYklMgtTk0WJ_-u2mquQBOA1zSpKto5hUZwbk5jBjnWg6Y0NYH3Fb7jt6NcCUDjVbckVgTm9DbToDB8qstXnont-SJrltASnYQRoVH0vFmkIrpJtldTh0ccc14uyxR110aMv4vSNYX4wlGOcXCqV2K4cTKee2R-KUQpkgzqVm8Ou08j0k4V1KsNZlKSR4DltO58ph_nvHhHM9hQZins0OYRqGjqPoXX61oRipuG2gQN0HLFonqBRrsuFt-eXmWAuso83naXng=w1006-h261-no&quot; height=&quot;300&quot; width=&quot;300&quot;/&gt;
+</tw-passagedata>
+<tw-passagedata pid="40" name="helloaer2" tags="redforest" position="400,1300">The being turns toward you.
+
+&quot;My name is Aer. I am the Guardian of the Sinpo Forest.&quot; the voice 
+is light and airy, like the sound of wind chimes. 
+
+&quot;OH WOW!&quot; Chippy gasps, the mysterious moment ruined by his brash comment.
+
+&quot;YOU&#39;RE THE GOD OF THE FOREST??&quot; He asks loudly.
+
+==&gt;
+[[&quot;That IS what he said.&quot;|askaboutred2]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src =&quot;https://lh3.googleusercontent.com/nAVMJG5ogGRoJ0TOeWN-cfygl_P30a_TsPNfforK2pS8saFG7PLUoyC5SR7Vf3ndD3PWmIbH66_7KednYa4zDigYb2Th3Ke0qlCEwDADHfYLAf1CSkq-bmzcthrqbilpQNJS-GRcJ3f6ujZycVrTtlN2FeHfU9XvJSDFRBqOzqqOR6wQOKALxsEgEXUbviSmuPaGKBYs-NLqHfV3Qjka-OPdryiy3-awp5IQzhYgnuUk8rIPRy61zS7J9FXOdoud3KpBeamrNN1md3jhgdw7mR2oYNeQXjK4sqGvL48X0EPBbAMwjqNy9GaHfrug-dOhFz27_o4JAvz8T1NWXxQOCgJJa0hi-qng8AIolulq7sJcrs5npbuW8-Vn4qfRTTtlbAAmzfZWjmucXwkrwkNBAuD-0ITxVilOjILiyFHFjiuix4KyhZZNyIu6asBtntiPD_Hw051FcK9OCey_-X4EdBGFJNv7-nSgIlFth9hAxDJdDZRD2IGKQO0nEuCu9hwvmfuB2P7ZPmWCc9j6S6J8MBNfV_rabl_B1ZweEyzEoWsHWu4D8CxSBrgoWQfWBE7reorbfkX_TdcjG5VQB8ditckRavMwGnPFDhYAld86CXnMn3jrd07_VrtSu_J2BSh0RZOYfCBFPxNiIPQg2FSHKpaC7vDiYDKdduoLoM4xmw=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="41" name="meetaer2" tags="redforest" position="400,1150">As you stare at the red leaves in wonder, you notice the sound of footsteps. 
+You turn around in time to see the approaching figure. Louis gasps,
+directly in front of you is a being you are not familar with.
+==&gt;
+[[&quot;...&quot;|helloaer2]]
+[[&quot;W-what are you?&quot;|helloaer2]]
+[[&quot;Are you the Guardian of Sinpo Forest?&quot;|helloaer2]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src =&quot;https://lh3.googleusercontent.com/nAVMJG5ogGRoJ0TOeWN-cfygl_P30a_TsPNfforK2pS8saFG7PLUoyC5SR7Vf3ndD3PWmIbH66_7KednYa4zDigYb2Th3Ke0qlCEwDADHfYLAf1CSkq-bmzcthrqbilpQNJS-GRcJ3f6ujZycVrTtlN2FeHfU9XvJSDFRBqOzqqOR6wQOKALxsEgEXUbviSmuPaGKBYs-NLqHfV3Qjka-OPdryiy3-awp5IQzhYgnuUk8rIPRy61zS7J9FXOdoud3KpBeamrNN1md3jhgdw7mR2oYNeQXjK4sqGvL48X0EPBbAMwjqNy9GaHfrug-dOhFz27_o4JAvz8T1NWXxQOCgJJa0hi-qng8AIolulq7sJcrs5npbuW8-Vn4qfRTTtlbAAmzfZWjmucXwkrwkNBAuD-0ITxVilOjILiyFHFjiuix4KyhZZNyIu6asBtntiPD_Hw051FcK9OCey_-X4EdBGFJNv7-nSgIlFth9hAxDJdDZRD2IGKQO0nEuCu9hwvmfuB2P7ZPmWCc9j6S6J8MBNfV_rabl_B1ZweEyzEoWsHWu4D8CxSBrgoWQfWBE7reorbfkX_TdcjG5VQB8ditckRavMwGnPFDhYAld86CXnMn3jrd07_VrtSu_J2BSh0RZOYfCBFPxNiIPQg2FSHKpaC7vDiYDKdduoLoM4xmw=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="42" name="askaboutred2" tags="redforest" position="400,1450">Aer smiles breifly before drifting a bit closer.
+
+&quot;Before, you were talking about the Tree of Change....&quot; Aer trails
+off into silence.
+
+==&gt;
+[[&quot;Yes, we&#39;d like to know what&#39;s wrong with it.&quot;|explainred2]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src =&quot;https://lh3.googleusercontent.com/nAVMJG5ogGRoJ0TOeWN-cfygl_P30a_TsPNfforK2pS8saFG7PLUoyC5SR7Vf3ndD3PWmIbH66_7KednYa4zDigYb2Th3Ke0qlCEwDADHfYLAf1CSkq-bmzcthrqbilpQNJS-GRcJ3f6ujZycVrTtlN2FeHfU9XvJSDFRBqOzqqOR6wQOKALxsEgEXUbviSmuPaGKBYs-NLqHfV3Qjka-OPdryiy3-awp5IQzhYgnuUk8rIPRy61zS7J9FXOdoud3KpBeamrNN1md3jhgdw7mR2oYNeQXjK4sqGvL48X0EPBbAMwjqNy9GaHfrug-dOhFz27_o4JAvz8T1NWXxQOCgJJa0hi-qng8AIolulq7sJcrs5npbuW8-Vn4qfRTTtlbAAmzfZWjmucXwkrwkNBAuD-0ITxVilOjILiyFHFjiuix4KyhZZNyIu6asBtntiPD_Hw051FcK9OCey_-X4EdBGFJNv7-nSgIlFth9hAxDJdDZRD2IGKQO0nEuCu9hwvmfuB2P7ZPmWCc9j6S6J8MBNfV_rabl_B1ZweEyzEoWsHWu4D8CxSBrgoWQfWBE7reorbfkX_TdcjG5VQB8ditckRavMwGnPFDhYAld86CXnMn3jrd07_VrtSu_J2BSh0RZOYfCBFPxNiIPQg2FSHKpaC7vDiYDKdduoLoM4xmw=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="43" name="explainred2" tags="redforest" position="400,1600">&quot;There&#39;s nothing wrong with the Tree of Change.&quot; Aer explains.
+
+&quot;It&#39;s just undergoing some changes.&quot;
+
+&quot;Why?&quot; Chippy demands before turning toward you. &quot;It definitely looks
+like there&#39;s something wrong with it.&quot; he remarks.
+
+==&gt;
+[[&quot;...&quot;|xexplainredmore]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src =&quot;https://lh3.googleusercontent.com/nAVMJG5ogGRoJ0TOeWN-cfygl_P30a_TsPNfforK2pS8saFG7PLUoyC5SR7Vf3ndD3PWmIbH66_7KednYa4zDigYb2Th3Ke0qlCEwDADHfYLAf1CSkq-bmzcthrqbilpQNJS-GRcJ3f6ujZycVrTtlN2FeHfU9XvJSDFRBqOzqqOR6wQOKALxsEgEXUbviSmuPaGKBYs-NLqHfV3Qjka-OPdryiy3-awp5IQzhYgnuUk8rIPRy61zS7J9FXOdoud3KpBeamrNN1md3jhgdw7mR2oYNeQXjK4sqGvL48X0EPBbAMwjqNy9GaHfrug-dOhFz27_o4JAvz8T1NWXxQOCgJJa0hi-qng8AIolulq7sJcrs5npbuW8-Vn4qfRTTtlbAAmzfZWjmucXwkrwkNBAuD-0ITxVilOjILiyFHFjiuix4KyhZZNyIu6asBtntiPD_Hw051FcK9OCey_-X4EdBGFJNv7-nSgIlFth9hAxDJdDZRD2IGKQO0nEuCu9hwvmfuB2P7ZPmWCc9j6S6J8MBNfV_rabl_B1ZweEyzEoWsHWu4D8CxSBrgoWQfWBE7reorbfkX_TdcjG5VQB8ditckRavMwGnPFDhYAld86CXnMn3jrd07_VrtSu_J2BSh0RZOYfCBFPxNiIPQg2FSHKpaC7vDiYDKdduoLoM4xmw=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="44" name="meetlouis2" tags="" position="900,1350">...
+==&gt;
+[[&quot;What&#39;s your name?&quot;|meetlouis3]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/c4ClBdUOu0PMA-v0sGGLHRyTA6N9kGgBjF2vAFkgDYt2jpT4O08R83fvbdDLKNBSYbcd3fQfv28o4hIkdrbDUpqy8B4ZCgX-lwtEO8Teli-lhwPk3tMqJxcYxUvb6snAAbocmCSUROfJ3IHYTsjdMIEXZ0DdM7mYRTggjdB3b_NhVSwDf3QgMU07_1OJQEg2n3o30DLdAUCLeYHgY4THBrlBrrzxqbUconCzfSRnHr5Ls4G1Jd_iw9-VKG69kKfCKH6UQ__9XSCfKcC8tvd5wl8diZvVqwBIEE90QXrqbyyIkIQJ89VfZeMrOjPjPDWy0WacqnMEm2uvJ4QFrnvvjQwxpBvdBJeeoydcdju27evWgc15NSvC0Sc39ZEfptzEqnuGGGBbnslO7bvCSPUMmq-O9a8COFA45UYklMgtTk0WJ_-u2mquQBOA1zSpKto5hUZwbk5jBjnWg6Y0NYH3Fb7jt6NcCUDjVbckVgTm9DbToDB8qstXnont-SJrltASnYQRoVH0vFmkIrpJtldTh0ccc14uyxR110aMv4vSNYX4wlGOcXCqV2K4cTKee2R-KUQpkgzqVm8Ou08j0k4V1KsNZlKSR4DltO58ph_nvHhHM9hQZins0OYRqGjqPoXX61oRipuG2gQN0HLFonqBRrsuFt-eXmWAuso83naXng=w1006-h261-no&quot; height= &quot;200&quot; width=&quot;700&quot;/&gt;
+</tw-passagedata>
+<tw-passagedata pid="45" name="meetlouis3" tags="" position="800,1500">The blue bird turns and smiles. 
+&quot;My name is Louis. Pleasure to meet you.&quot; He said, adjusting a small bag
+on his back.
+&quot;Hey~ Louis! Want to come with us?&quot; Chippy asked excitedly.
+==&gt;
+[[&quot;Sorry Louis, Chippy here is a little over excited.&quot;|meetlouis4]]
+[[&quot;Chippy! Don&#39;t bother the poor bird!&quot;|meetlouis4]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/c4ClBdUOu0PMA-v0sGGLHRyTA6N9kGgBjF2vAFkgDYt2jpT4O08R83fvbdDLKNBSYbcd3fQfv28o4hIkdrbDUpqy8B4ZCgX-lwtEO8Teli-lhwPk3tMqJxcYxUvb6snAAbocmCSUROfJ3IHYTsjdMIEXZ0DdM7mYRTggjdB3b_NhVSwDf3QgMU07_1OJQEg2n3o30DLdAUCLeYHgY4THBrlBrrzxqbUconCzfSRnHr5Ls4G1Jd_iw9-VKG69kKfCKH6UQ__9XSCfKcC8tvd5wl8diZvVqwBIEE90QXrqbyyIkIQJ89VfZeMrOjPjPDWy0WacqnMEm2uvJ4QFrnvvjQwxpBvdBJeeoydcdju27evWgc15NSvC0Sc39ZEfptzEqnuGGGBbnslO7bvCSPUMmq-O9a8COFA45UYklMgtTk0WJ_-u2mquQBOA1zSpKto5hUZwbk5jBjnWg6Y0NYH3Fb7jt6NcCUDjVbckVgTm9DbToDB8qstXnont-SJrltASnYQRoVH0vFmkIrpJtldTh0ccc14uyxR110aMv4vSNYX4wlGOcXCqV2K4cTKee2R-KUQpkgzqVm8Ou08j0k4V1KsNZlKSR4DltO58ph_nvHhHM9hQZins0OYRqGjqPoXX61oRipuG2gQN0HLFonqBRrsuFt-eXmWAuso83naXng=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+</tw-passagedata>
+<tw-passagedata pid="46" name="meetlouis4" tags="" position="700,1350">&quot;Where are you two going?&quot; Louis asked curiously.
+&quot;We&#39;re going on an adventure!&quot; Chippy says excitedly.
+==&gt;
+[[&quot;What Chippy means to say is-&quot;|meetlouis5]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/c4ClBdUOu0PMA-v0sGGLHRyTA6N9kGgBjF2vAFkgDYt2jpT4O08R83fvbdDLKNBSYbcd3fQfv28o4hIkdrbDUpqy8B4ZCgX-lwtEO8Teli-lhwPk3tMqJxcYxUvb6snAAbocmCSUROfJ3IHYTsjdMIEXZ0DdM7mYRTggjdB3b_NhVSwDf3QgMU07_1OJQEg2n3o30DLdAUCLeYHgY4THBrlBrrzxqbUconCzfSRnHr5Ls4G1Jd_iw9-VKG69kKfCKH6UQ__9XSCfKcC8tvd5wl8diZvVqwBIEE90QXrqbyyIkIQJ89VfZeMrOjPjPDWy0WacqnMEm2uvJ4QFrnvvjQwxpBvdBJeeoydcdju27evWgc15NSvC0Sc39ZEfptzEqnuGGGBbnslO7bvCSPUMmq-O9a8COFA45UYklMgtTk0WJ_-u2mquQBOA1zSpKto5hUZwbk5jBjnWg6Y0NYH3Fb7jt6NcCUDjVbckVgTm9DbToDB8qstXnont-SJrltASnYQRoVH0vFmkIrpJtldTh0ccc14uyxR110aMv4vSNYX4wlGOcXCqV2K4cTKee2R-KUQpkgzqVm8Ou08j0k4V1KsNZlKSR4DltO58ph_nvHhHM9hQZins0OYRqGjqPoXX61oRipuG2gQN0HLFonqBRrsuFt-eXmWAuso83naXng=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+</tw-passagedata>
+<tw-passagedata pid="47" name="meetlouis5" tags="" position="700,1200">&quot;-We&#39;re looking for the Guardian of the Forest!&quot; Chippy interrupts, hopping
+bak and forth from one foot to the other.
+&quot;Sure,&quot; Louis shrugs, &quot;I can come with you guys.&quot;
+The three of you walk for a while, Chippy annoying you untill you agree
+to play a game of I-Spy. 
+&quot;I spy, with my little eye, something...... GREEEN!&quot;
+==&gt;
+[[&quot;It better not be another tree...&quot;|noticeredtree2]]
+[[&quot;If you say &#39;you&#39;, I&#39;m going to punch you.&quot;|noticeredtree2]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/c4ClBdUOu0PMA-v0sGGLHRyTA6N9kGgBjF2vAFkgDYt2jpT4O08R83fvbdDLKNBSYbcd3fQfv28o4hIkdrbDUpqy8B4ZCgX-lwtEO8Teli-lhwPk3tMqJxcYxUvb6snAAbocmCSUROfJ3IHYTsjdMIEXZ0DdM7mYRTggjdB3b_NhVSwDf3QgMU07_1OJQEg2n3o30DLdAUCLeYHgY4THBrlBrrzxqbUconCzfSRnHr5Ls4G1Jd_iw9-VKG69kKfCKH6UQ__9XSCfKcC8tvd5wl8diZvVqwBIEE90QXrqbyyIkIQJ89VfZeMrOjPjPDWy0WacqnMEm2uvJ4QFrnvvjQwxpBvdBJeeoydcdju27evWgc15NSvC0Sc39ZEfptzEqnuGGGBbnslO7bvCSPUMmq-O9a8COFA45UYklMgtTk0WJ_-u2mquQBOA1zSpKto5hUZwbk5jBjnWg6Y0NYH3Fb7jt6NcCUDjVbckVgTm9DbToDB8qstXnont-SJrltASnYQRoVH0vFmkIrpJtldTh0ccc14uyxR110aMv4vSNYX4wlGOcXCqV2K4cTKee2R-KUQpkgzqVm8Ou08j0k4V1KsNZlKSR4DltO58ph_nvHhHM9hQZins0OYRqGjqPoXX61oRipuG2gQN0HLFonqBRrsuFt-eXmWAuso83naXng=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+</tw-passagedata>
+<tw-passagedata pid="48" name="explainredmore2" tags="redforest" position="1208,1853">As you take the leaf, you realize that there is an inherent beauty
+in its dark red color. The more you stare at it, the more rich and lavish
+the color becomes.
+&quot;This tree is one hundred years old.&quot; Aer says wisely. &quot;It ages differently
+than most of the other trees in the forest.&quot;
+&quot;What do you mean?&quot; asked Chippy.
+==&gt;
+[[&quot;...&quot;|explainredmore3]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/JSKbg8Hu2vCVh-oO0XAlOeF4gHGEl7p1wO-r8KbjuL_oagRjpNntXIiK0Gq9dRlxlXdeZQ7rcaHxCToy3rZeCNpkZFdYyahr0owb1kRP53F3X-PyvD8dphvboWoMGIZk1yS1nzmQk8f1zH6JJ2vceteAkwXZLlLuTBY4dgHLV5Q_kPwEcQVpQDF1jZijNmhgYUHfnw2dLSjdIImJIjkt0bBTa5x_g0wPEi17gu2mwfVouT_me6MNfge6ExjY9bpN3gwkfWz6h0Fr-j1rEzLSaYoYJ4VNPlVDi1x6s1kBhf_uEnsNuAjfHttbtfjqqaiQd9J5903RCr60pkwiPInvWajrU17-fBZ3sW9R9ebbSfhCT6v07ll4IMu8SAWm46MoyoBeEAXQm5GNTgiYYYSlPtrk2NUOsavxexxYQApTC0wwc3EiyC1eorpZ43kWz2C86K9X5P-9P6U0yYM173oB9zkC-Kh9CMjT74j6clOlXddF1qnjnRlthIOaOGuIuNIs16vR5uQUlebUa43UODo8d1MMDyj6pZL2pkatereqwWLGpMCdSxXjvBH7J-RZkF4qmbhH9s05Mbd3Bm2bjW2TCJnhoqBnbXvRyPsZf7FRWp7zbhQeI5OEra9FfmpdbBJjEW1Cl3GtyWSyGZD7uWzb0vBdSAswAhTcfB0SkNGKhQ=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="49" name="explainredmore3" tags="redforest" position="1408,1853">&quot;This forest has been in a state of eternal summer.&quot; Aer begins, &quot;every tree
+you see, save for this one here is always green, is it not?&quot; Aer prompts.
+&quot;Well, yes.&quot; Chippy says.
+&quot;But in another land, far away, there are these periods called &#39;seasons&#39;&quot; Aer explains.
+==&gt;
+[[&quot;What did these &#39;seasons&#39; do exactly?&quot;|explainredmore4]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/JSKbg8Hu2vCVh-oO0XAlOeF4gHGEl7p1wO-r8KbjuL_oagRjpNntXIiK0Gq9dRlxlXdeZQ7rcaHxCToy3rZeCNpkZFdYyahr0owb1kRP53F3X-PyvD8dphvboWoMGIZk1yS1nzmQk8f1zH6JJ2vceteAkwXZLlLuTBY4dgHLV5Q_kPwEcQVpQDF1jZijNmhgYUHfnw2dLSjdIImJIjkt0bBTa5x_g0wPEi17gu2mwfVouT_me6MNfge6ExjY9bpN3gwkfWz6h0Fr-j1rEzLSaYoYJ4VNPlVDi1x6s1kBhf_uEnsNuAjfHttbtfjqqaiQd9J5903RCr60pkwiPInvWajrU17-fBZ3sW9R9ebbSfhCT6v07ll4IMu8SAWm46MoyoBeEAXQm5GNTgiYYYSlPtrk2NUOsavxexxYQApTC0wwc3EiyC1eorpZ43kWz2C86K9X5P-9P6U0yYM173oB9zkC-Kh9CMjT74j6clOlXddF1qnjnRlthIOaOGuIuNIs16vR5uQUlebUa43UODo8d1MMDyj6pZL2pkatereqwWLGpMCdSxXjvBH7J-RZkF4qmbhH9s05Mbd3Bm2bjW2TCJnhoqBnbXvRyPsZf7FRWp7zbhQeI5OEra9FfmpdbBJjEW1Cl3GtyWSyGZD7uWzb0vBdSAswAhTcfB0SkNGKhQ=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="50" name="explainredmore4" tags="redforest" position="1603,1855">&quot;These seasons were a way for the world to reset. One season was like our summmer,
+while another was cold, and dark.&quot; Aer began
+&quot;-But then wouldn&#39;t all the plants die?&quot; Chippy said, quite alarmed.
+&quot;Yes, but it was a chance for the world to &#39;reset&#39;, for lack of a better 
+word. Each time the earth turned cold, the plants would die, only for
+them to be born anew when the next seasons arrived,&quot; 
+==&gt;
+[[&quot;But what does that have to do with the red-tree?&quot;|explainredmore5]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/JSKbg8Hu2vCVh-oO0XAlOeF4gHGEl7p1wO-r8KbjuL_oagRjpNntXIiK0Gq9dRlxlXdeZQ7rcaHxCToy3rZeCNpkZFdYyahr0owb1kRP53F3X-PyvD8dphvboWoMGIZk1yS1nzmQk8f1zH6JJ2vceteAkwXZLlLuTBY4dgHLV5Q_kPwEcQVpQDF1jZijNmhgYUHfnw2dLSjdIImJIjkt0bBTa5x_g0wPEi17gu2mwfVouT_me6MNfge6ExjY9bpN3gwkfWz6h0Fr-j1rEzLSaYoYJ4VNPlVDi1x6s1kBhf_uEnsNuAjfHttbtfjqqaiQd9J5903RCr60pkwiPInvWajrU17-fBZ3sW9R9ebbSfhCT6v07ll4IMu8SAWm46MoyoBeEAXQm5GNTgiYYYSlPtrk2NUOsavxexxYQApTC0wwc3EiyC1eorpZ43kWz2C86K9X5P-9P6U0yYM173oB9zkC-Kh9CMjT74j6clOlXddF1qnjnRlthIOaOGuIuNIs16vR5uQUlebUa43UODo8d1MMDyj6pZL2pkatereqwWLGpMCdSxXjvBH7J-RZkF4qmbhH9s05Mbd3Bm2bjW2TCJnhoqBnbXvRyPsZf7FRWp7zbhQeI5OEra9FfmpdbBJjEW1Cl3GtyWSyGZD7uWzb0vBdSAswAhTcfB0SkNGKhQ=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="51" name="explainredmore5" tags="redforest" position="1806,1850">&quot;One of the seasons was named &#39;fall&#39;, and during this season, all the 
+trees would turn brilliant shades of red, orange, and yellow.&quot; Aer sighed
+wistfully. 
+&quot;So this tree is from the world with the &#39;seasons&#39; then, huh.&quot; Chippy prompted.
+&quot;Yes it is.&quot;
+==&gt;
+-FIN
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src = &quot;https://lh3.googleusercontent.com/JSKbg8Hu2vCVh-oO0XAlOeF4gHGEl7p1wO-r8KbjuL_oagRjpNntXIiK0Gq9dRlxlXdeZQ7rcaHxCToy3rZeCNpkZFdYyahr0owb1kRP53F3X-PyvD8dphvboWoMGIZk1yS1nzmQk8f1zH6JJ2vceteAkwXZLlLuTBY4dgHLV5Q_kPwEcQVpQDF1jZijNmhgYUHfnw2dLSjdIImJIjkt0bBTa5x_g0wPEi17gu2mwfVouT_me6MNfge6ExjY9bpN3gwkfWz6h0Fr-j1rEzLSaYoYJ4VNPlVDi1x6s1kBhf_uEnsNuAjfHttbtfjqqaiQd9J5903RCr60pkwiPInvWajrU17-fBZ3sW9R9ebbSfhCT6v07ll4IMu8SAWm46MoyoBeEAXQm5GNTgiYYYSlPtrk2NUOsavxexxYQApTC0wwc3EiyC1eorpZ43kWz2C86K9X5P-9P6U0yYM173oB9zkC-Kh9CMjT74j6clOlXddF1qnjnRlthIOaOGuIuNIs16vR5uQUlebUa43UODo8d1MMDyj6pZL2pkatereqwWLGpMCdSxXjvBH7J-RZkF4qmbhH9s05Mbd3Bm2bjW2TCJnhoqBnbXvRyPsZf7FRWp7zbhQeI5OEra9FfmpdbBJjEW1Cl3GtyWSyGZD7uWzb0vBdSAswAhTcfB0SkNGKhQ=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="52" name="xexplainredmore" tags="redforest" position="1038,1705">Aer turns toward the tree and plucks a vividly red leaf from one of its branches. 
+&quot;Here, look at this,&quot; he says, and passes the leaf to Louis.
+Louis shrinks back a bit, afraid to touch the oddly colored offering.
+&quot;No? Okay, how about you then? Will you take the leaf?&quot; Aer motions toward
+you, holding the leaf within your grasp.
+==&gt;
+[[&quot;I&#39;m not scared,&quot;|xexplainredmore2]]
+[[&quot;Sure, why not,&quot;|xexplainredmore2]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src =&quot;https://lh3.googleusercontent.com/nAVMJG5ogGRoJ0TOeWN-cfygl_P30a_TsPNfforK2pS8saFG7PLUoyC5SR7Vf3ndD3PWmIbH66_7KednYa4zDigYb2Th3Ke0qlCEwDADHfYLAf1CSkq-bmzcthrqbilpQNJS-GRcJ3f6ujZycVrTtlN2FeHfU9XvJSDFRBqOzqqOR6wQOKALxsEgEXUbviSmuPaGKBYs-NLqHfV3Qjka-OPdryiy3-awp5IQzhYgnuUk8rIPRy61zS7J9FXOdoud3KpBeamrNN1md3jhgdw7mR2oYNeQXjK4sqGvL48X0EPBbAMwjqNy9GaHfrug-dOhFz27_o4JAvz8T1NWXxQOCgJJa0hi-qng8AIolulq7sJcrs5npbuW8-Vn4qfRTTtlbAAmzfZWjmucXwkrwkNBAuD-0ITxVilOjILiyFHFjiuix4KyhZZNyIu6asBtntiPD_Hw051FcK9OCey_-X4EdBGFJNv7-nSgIlFth9hAxDJdDZRD2IGKQO0nEuCu9hwvmfuB2P7ZPmWCc9j6S6J8MBNfV_rabl_B1ZweEyzEoWsHWu4D8CxSBrgoWQfWBE7reorbfkX_TdcjG5VQB8ditckRavMwGnPFDhYAld86CXnMn3jrd07_VrtSu_J2BSh0RZOYfCBFPxNiIPQg2FSHKpaC7vDiYDKdduoLoM4xmw=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="53" name="xexplainredmore2" tags="redforest" position="1038,1855">As you take the leaf, you realize that there is an inherent beauty
+in its dark red color. The more you stare at it, the more rich and lavish
+the color becomes.
+&quot;This tree is one hundred years old.&quot; Aer says wisely. &quot;It ages differently
+than most of the other trees in the forest.&quot;
+&quot;What do you mean?&quot; asked Chippy.
+==&gt;
+[[&quot;...&quot;|xexplainredmore3]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src =&quot;https://lh3.googleusercontent.com/nAVMJG5ogGRoJ0TOeWN-cfygl_P30a_TsPNfforK2pS8saFG7PLUoyC5SR7Vf3ndD3PWmIbH66_7KednYa4zDigYb2Th3Ke0qlCEwDADHfYLAf1CSkq-bmzcthrqbilpQNJS-GRcJ3f6ujZycVrTtlN2FeHfU9XvJSDFRBqOzqqOR6wQOKALxsEgEXUbviSmuPaGKBYs-NLqHfV3Qjka-OPdryiy3-awp5IQzhYgnuUk8rIPRy61zS7J9FXOdoud3KpBeamrNN1md3jhgdw7mR2oYNeQXjK4sqGvL48X0EPBbAMwjqNy9GaHfrug-dOhFz27_o4JAvz8T1NWXxQOCgJJa0hi-qng8AIolulq7sJcrs5npbuW8-Vn4qfRTTtlbAAmzfZWjmucXwkrwkNBAuD-0ITxVilOjILiyFHFjiuix4KyhZZNyIu6asBtntiPD_Hw051FcK9OCey_-X4EdBGFJNv7-nSgIlFth9hAxDJdDZRD2IGKQO0nEuCu9hwvmfuB2P7ZPmWCc9j6S6J8MBNfV_rabl_B1ZweEyzEoWsHWu4D8CxSBrgoWQfWBE7reorbfkX_TdcjG5VQB8ditckRavMwGnPFDhYAld86CXnMn3jrd07_VrtSu_J2BSh0RZOYfCBFPxNiIPQg2FSHKpaC7vDiYDKdduoLoM4xmw=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="54" name="xexplainredmore3" tags="redforest" position="811,1855">&quot;This forest has been in a state of eternal summer.&quot; Aer begins, &quot;every tree
+you see, save for this one here is always green, is it not?&quot; Aer prompts.
+&quot;Well, yes.&quot; Chippy says.
+&quot;But in another land, far away, there are these periods called &#39;seasons&#39;&quot; Aer explains.
+==&gt;
+[[&quot;What did these &#39;seasons&#39; do exactly?&quot;|xexplainredmore4]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src =&quot;https://lh3.googleusercontent.com/nAVMJG5ogGRoJ0TOeWN-cfygl_P30a_TsPNfforK2pS8saFG7PLUoyC5SR7Vf3ndD3PWmIbH66_7KednYa4zDigYb2Th3Ke0qlCEwDADHfYLAf1CSkq-bmzcthrqbilpQNJS-GRcJ3f6ujZycVrTtlN2FeHfU9XvJSDFRBqOzqqOR6wQOKALxsEgEXUbviSmuPaGKBYs-NLqHfV3Qjka-OPdryiy3-awp5IQzhYgnuUk8rIPRy61zS7J9FXOdoud3KpBeamrNN1md3jhgdw7mR2oYNeQXjK4sqGvL48X0EPBbAMwjqNy9GaHfrug-dOhFz27_o4JAvz8T1NWXxQOCgJJa0hi-qng8AIolulq7sJcrs5npbuW8-Vn4qfRTTtlbAAmzfZWjmucXwkrwkNBAuD-0ITxVilOjILiyFHFjiuix4KyhZZNyIu6asBtntiPD_Hw051FcK9OCey_-X4EdBGFJNv7-nSgIlFth9hAxDJdDZRD2IGKQO0nEuCu9hwvmfuB2P7ZPmWCc9j6S6J8MBNfV_rabl_B1ZweEyzEoWsHWu4D8CxSBrgoWQfWBE7reorbfkX_TdcjG5VQB8ditckRavMwGnPFDhYAld86CXnMn3jrd07_VrtSu_J2BSh0RZOYfCBFPxNiIPQg2FSHKpaC7vDiYDKdduoLoM4xmw=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+
+</tw-passagedata>
+<tw-passagedata pid="55" name="xexplainredmore4" tags="redforest" position="611,1853">&quot;These seasons were a way for the world to reset. One season was like our summmer,
+while another was cold, and dark.&quot; Aer began
+&quot;-But then wouldn&#39;t all the plants die?&quot; Louis said, quite alarmed.
+&quot;Yes, but it was a chance for the world to &#39;reset&#39;, for lack of a better 
+word. Each time the earth turned cold, the plants would die, only for
+them to be born anew when the next seasons arrived,&quot; 
+==&gt;
+[[&quot;But what does that have to do with the red-tree?&quot;|xexplainredmore5]]
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src =&quot;https://lh3.googleusercontent.com/nAVMJG5ogGRoJ0TOeWN-cfygl_P30a_TsPNfforK2pS8saFG7PLUoyC5SR7Vf3ndD3PWmIbH66_7KednYa4zDigYb2Th3Ke0qlCEwDADHfYLAf1CSkq-bmzcthrqbilpQNJS-GRcJ3f6ujZycVrTtlN2FeHfU9XvJSDFRBqOzqqOR6wQOKALxsEgEXUbviSmuPaGKBYs-NLqHfV3Qjka-OPdryiy3-awp5IQzhYgnuUk8rIPRy61zS7J9FXOdoud3KpBeamrNN1md3jhgdw7mR2oYNeQXjK4sqGvL48X0EPBbAMwjqNy9GaHfrug-dOhFz27_o4JAvz8T1NWXxQOCgJJa0hi-qng8AIolulq7sJcrs5npbuW8-Vn4qfRTTtlbAAmzfZWjmucXwkrwkNBAuD-0ITxVilOjILiyFHFjiuix4KyhZZNyIu6asBtntiPD_Hw051FcK9OCey_-X4EdBGFJNv7-nSgIlFth9hAxDJdDZRD2IGKQO0nEuCu9hwvmfuB2P7ZPmWCc9j6S6J8MBNfV_rabl_B1ZweEyzEoWsHWu4D8CxSBrgoWQfWBE7reorbfkX_TdcjG5VQB8ditckRavMwGnPFDhYAld86CXnMn3jrd07_VrtSu_J2BSh0RZOYfCBFPxNiIPQg2FSHKpaC7vDiYDKdduoLoM4xmw=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
+<tw-passagedata pid="56" name="xexplainredmore5" tags="redforest" position="406,1850">&quot;One of the seasons was named &#39;fall&#39;, and during this season, all the 
+trees would turn brilliant shades of red, orange, and yellow.&quot; Aer sighed
+wistfully. 
+&quot;So this tree is from the world with the &#39;seasons&#39; then, huh.&quot; Louis prompted.
+&quot;Yes it is.&quot;
+==&gt;
+-FIN
+&lt;img src = &quot;http://tinyurl.com/zoramsjourney-speechbubble&quot; height=&quot;100&quot; width=&quot;700&quot;/&gt;
+&lt;img src =&quot;https://lh3.googleusercontent.com/nAVMJG5ogGRoJ0TOeWN-cfygl_P30a_TsPNfforK2pS8saFG7PLUoyC5SR7Vf3ndD3PWmIbH66_7KednYa4zDigYb2Th3Ke0qlCEwDADHfYLAf1CSkq-bmzcthrqbilpQNJS-GRcJ3f6ujZycVrTtlN2FeHfU9XvJSDFRBqOzqqOR6wQOKALxsEgEXUbviSmuPaGKBYs-NLqHfV3Qjka-OPdryiy3-awp5IQzhYgnuUk8rIPRy61zS7J9FXOdoud3KpBeamrNN1md3jhgdw7mR2oYNeQXjK4sqGvL48X0EPBbAMwjqNy9GaHfrug-dOhFz27_o4JAvz8T1NWXxQOCgJJa0hi-qng8AIolulq7sJcrs5npbuW8-Vn4qfRTTtlbAAmzfZWjmucXwkrwkNBAuD-0ITxVilOjILiyFHFjiuix4KyhZZNyIu6asBtntiPD_Hw051FcK9OCey_-X4EdBGFJNv7-nSgIlFth9hAxDJdDZRD2IGKQO0nEuCu9hwvmfuB2P7ZPmWCc9j6S6J8MBNfV_rabl_B1ZweEyzEoWsHWu4D8CxSBrgoWQfWBE7reorbfkX_TdcjG5VQB8ditckRavMwGnPFDhYAld86CXnMn3jrd07_VrtSu_J2BSh0RZOYfCBFPxNiIPQg2FSHKpaC7vDiYDKdduoLoM4xmw=w1006-h261-no&quot; height=&quot;200&quot; width=&quot;700&quot;/&gt;
+
+</tw-passagedata>
 </tw-storydata>
 
 
